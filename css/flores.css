@@ -23,6 +23,7 @@
     height: 450px;
     margin-bottom: 10px;
     border: 1px solid white;
+    
 }
 .flores img:hover{
     border-color: var(--cor-p1);
@@ -37,19 +38,11 @@
     color: var(--cor-p2);
 }
 
-/* @media (max-width: 1000px) {
-   .flores ul{
-    grid-template-columns: 1fr 1fr;
-} 
-} */
+
 
 @media (max-width: 800px) {
     .flores img:hover{
         border-color: white;
  } 
  }
- /* @media (max-width: 700px) {
-    .flores ul{
-       overflow-x: auto;
- } 
- } */
+ 

@@ -25,7 +25,7 @@
     position: relative;
    
 }
-.menu a::after{
+.menu nav > a::after{
     content: '';
     display: block;
     width: 0px;
@@ -41,6 +41,7 @@
     background: transparent;
     padding: 10px;
     border-radius: 3px;
+    cursor: pointer;
 }
 .menu .area-usuario span:hover{
     background: var(--cor-p2);
