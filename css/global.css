@@ -40,6 +40,12 @@ ul{
 .botao:hover{
     background: var(--cor-p2)
 }
+.form .col-2 {
+    grid-column: span 2;
+}
+button{
+    border: none;
+}
 @media (max-width: 700px) {
     .botao{
         padding: 12px 16px;
